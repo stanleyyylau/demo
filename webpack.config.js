@@ -33,7 +33,7 @@ module.exports = function (env) {
         resolve: {
             extensions: ['.ts', '.js', '.tsx', '.less'],
             alias: {
-                "epc-logger": path.resolve(__dirname, 'packages/pwa-epc-logger/logger')
+                "client-logger": path.resolve(__dirname, 'packages/rewrite-client-logger/logger')
             }
         },
         module: {

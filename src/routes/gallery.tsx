@@ -3,7 +3,7 @@ import {isClientSideRendering} from "../utils/env";
 
 
 // @ts-ignore
-import {timeToInteraction} from 'epc-logger';
+import {timeToInteraction} from 'client-logger';
 
 
 class Gallery extends React.Component<any, {}> {
