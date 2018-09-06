@@ -1,0 +1,62 @@
+Arguments: 
+  /Users/stanley/.nvm/versions/node/v8.11.3/bin/node /usr/local/Cellar/yarn/1.7.0/libexec/bin/yarn.js
+
+PATH: 
+  /usr/local/opt/php@7.1/sbin:/usr/local/opt/php@7.1/bin:/usr/local/opt/php@7.1/sbin:/usr/local/opt/php@7.1/bin:~/.composer/vendor/bin:/usr/local/bin:/usr/local/sbin:/usr/local/opt/php@7.1/sbin:/usr/local/opt/php@7.1/bin:/usr/local/sbin:/Users/stanley/.nvm/versions/node/v8.11.3/bin:/Users/stanley/.rvm/gems/ruby-2.5.1/bin:/Users/stanley/.rvm/gems/ruby-2.5.1@global/bin:/Users/stanley/.rvm/rubies/ruby-2.5.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Users/stanley/.rvm/bin:/Users/stanley/.php-school/bin:/Users/stanley/.composer/vendor/bin:/Users/stanley
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.11.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/epc-logger: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:65656:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:134675:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:135658:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:135578:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "demo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+      "epc-logger": "^2.0.14",
+      "express": "^4.16.2",
+      "react": "^16.4.2",
+      "react-dom": "^16.4.2",
+      "react-router": "^4.3.1"
+    },
+    "devDependencies": {
+      "@types/express": "^4.16.0",
+      "@types/node": "^10.9.4",
+      "@types/react": "^16.4.13",
+      "@types/react-dom": "^16.0.7",
+      "@types/react-router": "^4.0.30",
+      "@types/react-router-dom": "^4.3.0",
+      "@types/rimraf": "^2.0.2",
+      "awesome-typescript-loader": "^5.2.0",
+      "typescript": "^2.9.2",
+      "webpack": "^4.17.2",
+      "webpack-cli": "^2.1.5",
+      "webpack-node-externals": "^1.7.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

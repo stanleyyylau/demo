@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "./dist/",
+    "module": "commonjs",
+    "target": "ES2017",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "sourceMap": true,
+    "strict": false,
+    "noFallthroughCasesInSwitch": false,
+    "experimentalDecorators": true,
+    "noImplicitReturns": false,
+    "noEmitOnError": false,
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "epc-logger": ["packages/node_modules/epc-logger/index.js"]
+    }
+  }
+}
